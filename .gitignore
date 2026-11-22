@@ -1,0 +1,23 @@
+# --- Android / Gradle ---
+Android/.gradle/
+Android/build/
+Android/app/build/
+Android/.idea/
+Android/local.properties
+*.apk
+*.aab
+
+# --- Java / Spring Boot / Maven ---
+backend/**/target/
+*.class
+*.jar
+!backend/**/lib/*.jar
+
+# --- IDE / SO ---
+.vscode/
+*.iml
+Thumbs.db
+.DS_Store
+
+# --- RAR comprimidos ---
+*.rar
